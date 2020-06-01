@@ -1,0 +1,20 @@
+<form #data="ngForm"  
+      (ngSubmit)="retailInventroy(data)">
+      <div *ngIf="!isValid" style="color: red;font-size: small;">
+       Fields should not be empty.
+       </div>
+        <span>Inventory Id : </span>
+        <input  type="text" ngModel name="inventoryId" id="login" class="fadeIn second" placeholder="inventoryId"> <br/>
+        <span> Retailer Id :  </span>
+        <input  type="text" ngModel name="retailerId" id="password" class="fadeIn third" placeholder="retailerId"> <br/>
+        <span>Product Category :  </span>
+        <input  type="text" ngModel name="productCategory" id="password" class="fadeIn third" placeholder="productCategory"> <br/>
+        <span>Product Unique Id :  </span>
+        <input  type="text" ngModel name="productUniqueId" id="password" class="fadeIn third" placeholder="productUniqueId"> <br/>
+        <span>Product SaleTimeStamp :  </span>
+        <input  type="date" ngModel name="productSaleTimeStamp" id="password" class="fadeIn third" placeholder="productSaleTimeStamp"> <br/>
+        <span>Product RecievedTimeStamp :  </span>
+        <input  type="date" ngModel name="productRecieveTimeStamp" id="password" class="fadeIn third" placeholder="productRecieveTimeStamp">
+        <br/>
+        <input type="submit" class="fadeIn fourth" value="Add">
+      </form>

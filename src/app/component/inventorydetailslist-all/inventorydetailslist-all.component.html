@@ -1,0 +1,21 @@
+
+<h2>Inventory List</h2>
+<Table border=1>
+    <tr>
+        <th>inventoryId</th>
+        <th>retailerId</th>
+        <th>productCategory</th>
+        <th>productUniqueId</th>
+        <th>productSaleTimeStamp</th>
+        <th>productRecieveTimeStamp</th>
+    </tr>
+
+    <tr *ngFor="let inventory of inventoryList">
+        <td>{{inventory.inventoryId}}</td>
+        <td>{{inventory.retailerId}}</td>
+        <td>{{inventory.productCategory}}</td>
+        <td>{{inventory.productUniqueId}}</td>
+        <td>{{inventory.productSaleTimeStamp}}</td>
+        <td>{{inventory.productRecieveTimeStamp}}</td>
+    </tr>
+</Table>

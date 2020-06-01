@@ -1,0 +1,40 @@
+Table {
+    font-size: 16px;
+    border-collapse: collapse;
+}
+
+Table tr th {
+    font-size: 18px;
+    font-weight: 600;
+    height: 22px;
+}
+
+td, th {
+    padding: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 200px;
+    height:22px;
+}
+
+input[type="text"] {
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+
+h2 {
+    color: brown;
+
+}

@@ -1,0 +1,17 @@
+.link   {
+    display:flex;
+    height: 30px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.link-item {
+    width: 20%;
+    font-size: 22px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
